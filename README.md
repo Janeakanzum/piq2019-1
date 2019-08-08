@@ -42,11 +42,19 @@ In order to launch this experiment, the gross conversion must have a statistical
 Measuring Variability
 Now let's calculate the Standard Deviation for both our Evaluation Metrics. Since Gross Conversion and Net Conversion are both probabilities, we can assume a binomial distribution, which will take on a normal distribution for a large enough sample size.
 
-The Udacity baseline values can be found here.
+The Udacity baseline values.
 
-SE
+Unique cookies to view course overview page per day:	40000
+Unique cookies to click "Start free trial" per day:	    3200
+Enrollments per day:	                                660
+Click-through-probability on "Start free trial":     	0.08
+Probability of enrolling, given click:	                0.20625
+Probability of payment, given enroll:	                0.53
+Probability of payment, given click	                    0.1093125
 
-Using the above formula and a sample size of 5000 cookies visiting the course overview page and using the ratio shown in the baseline values, the number of cookies we expect to click on the "Start Free Trial" would be:
+
+
+Using the above formula and a sample size of 3000 cookies visiting the course overview page and using the ratio shown in the baseline values, the number of cookies we expect to click on the "Start Free Trial" would be:
 
 N = 5000 * 3200/40000
 N = 400
